@@ -1,0 +1,29 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #2a2f70;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p::first-letter {
+    font-size: 300%;
+    font-weight: bold; 
+    color: blue;
+    text-shadow: 0.30rem 0.30rem pink;
+}
